@@ -3,7 +3,7 @@ using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
 ConnectionFactory factory = new();
-factory.Uri = new("amqps://gyakepie:pdpYr1SBb8nP1ZIVmWug8W5GqQ7ImAFL@stingray.rmq.cloudamqp.com/gyakepie");
+factory.Uri = new("");
 
 IConnection connection = factory.CreateConnection();
 IModel channel = connection.CreateModel();
