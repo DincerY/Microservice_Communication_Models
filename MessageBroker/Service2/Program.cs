@@ -29,4 +29,4 @@ consumer.Received += (sender, e) =>
     Console.WriteLine(message);
 };
 
-Console.Read();
+Console.Read(); 
